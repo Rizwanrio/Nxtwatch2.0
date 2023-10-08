@@ -1,0 +1,79 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+.cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.time {
+  background-color: #ffffff;
+  border-radius: 710px;
+  height: 110px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+}
+
+button {
+  background-color: transparent;
+  border-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 50px;
+}
+
+.setTime {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.console {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.num {
+  background-image: linear-gradient(to right, #00d9f5, #cffcf1);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.app {
+  background-color: #cffcf1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn1 {
+  font-size: 30px;
+  font-weight: 600;
+}
